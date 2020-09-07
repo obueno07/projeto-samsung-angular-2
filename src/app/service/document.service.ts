@@ -7,7 +7,8 @@ import { DocumentModel } from '../model/document-model';
 @Injectable()
 export class DocumentService {
 
-    private urlGetDocumentQuotation = "./assets/document.json";
+    //private urlGetDocumentQuotation = "./assets/document.json";
+    private urlGetDocumentQuotation = "http://localhost:8080/documents";
 
     constructor(private http: HttpClient) {
     }

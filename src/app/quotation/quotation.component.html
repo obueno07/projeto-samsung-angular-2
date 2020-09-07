@@ -1,20 +1,20 @@
 <!-- CONTEUDO LOGO -->
 <div>
-    <h4>Sinta prazer em comer aquilo que te faz bem.</h4>
+    <h4>COTAÇÕES</h4>
 </div>
 
 <!-- <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover"> -->
 <table datatable class="row-border hover">
     <thead>
       <tr>
-        <th>fromCurrencyCode</th>
-        <th>toCurrencyCode</th>
-        <th>cotacao</th>
-        <th>dataHoraCotacao</th>
+        <th>From Currency Code</th>
+        <th>to Currency Code</th>
+        <th>Cotacao</th>
+        <th>Data/Hora Cotacao</th>
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let quotation of listQuotation">
+      <tr *ngFor="let quotation of listQuotation" class="center-text" >
         <td>{{ quotation.fromCurrencyCode }}</td>
         <td>{{ quotation.toCurrencyCode }}</td>
         <td>{{ quotation.cotacao }}</td>

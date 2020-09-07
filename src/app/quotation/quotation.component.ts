@@ -8,7 +8,8 @@ import { Subject } from 'rxjs';
 
 @Component({
     selector: 'samsung-quotation',
-    templateUrl: './quotation.component.html'
+    templateUrl: 'quotation.component.html',
+    styleUrls: ['quotation.component.css']
 })
 export class QuotationComponent implements OnDestroy, OnInit {
 
@@ -41,8 +42,6 @@ export class QuotationComponent implements OnDestroy, OnInit {
 
          // buscar documento cotacoes
          this.getDocumentsQuotation();
-
-        
     }
 
     private getQuotation(){
@@ -62,7 +61,7 @@ export class QuotationComponent implements OnDestroy, OnInit {
                 this.listQuotationDocument = listDocument;
 
                 // convert currency
-                this.listQuotationDocument = this.documentService.convertCurrency(this.listQuotationDocument);
+                //this.listQuotationDocument = this.documentService.convertCurrency(this.listQuotationDocument);
 
                 // Calling the DT trigger to manually render the table
                 this.dtTrigger.next();

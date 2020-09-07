@@ -7,8 +7,8 @@ import { QuotationModel } from '../model/quotation-model';
 @Injectable()
 export class QuotationService {
 
-    private urlGetQuotation = "./assets/quotation.json";
-    //private urlGetQuotation = "http://localhost:8080/quotation";
+    //private urlGetQuotation = "./assets/quotation.json";
+    private urlGetQuotation = "http://localhost:8080/quotation";
 
     constructor(private http: HttpClient) {
     }
