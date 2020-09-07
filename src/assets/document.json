@@ -1,0 +1,71 @@
+[{
+	"documentId": "1",
+	"documentNumber": "800002010",
+	"notaFiscal": "0000001",
+	"documentDate": "2020-01-01",
+	"documentValue": "119.17",
+	"currencyCode": "USD"
+}, {
+	"documentId": "2",
+	"documentNumber": "800002011",
+	"notaFiscal": "0000002",
+	"documentDate": "2020-01-01",
+	"documentValue": "200.55",
+	"currencyCode": "PEN"
+}, {
+	"documentId": "3",
+	"documentNumber": "800002012",
+	"notaFiscal": "0000003",
+	"documentDate": "2020-01-02",
+	"documentValue": "556.59",
+	"currencyCode": "USD"
+}, {
+	"documentId": "4",
+	"documentNumber": "800002013",
+	"notaFiscal": "0000004",
+	"documentDate": "2020-01-03",
+	"documentValue": "300.10",
+	"currencyCode": "USD"
+}, {
+	"documentId": "5",
+	"documentNumber": "800002014",
+	"notaFiscal": "0000005",
+	"documentDate": "2020-01-03",
+	"documentValue": "10000.19",
+	"currencyCode": "BRL"
+}, {
+	"documentId": "6",
+	"documentNumber": "800002015",
+	"notaFiscal": "0000006",
+	"documentDate": "2020-01-01",
+	"documentValue": "251.55",
+	"currencyCode": "BRL"
+}, {
+	"documentId": "7",
+	"documentNumber": "800002016",
+	"notaFiscal": "0000007",
+	"documentDate": "2020-01-02",
+	"documentValue": "101.00",
+	"currencyCode": "USD"
+}, {
+	"documentId": "8",
+	"documentNumber": "800002017",
+	"notaFiscal": "0000008",
+	"documentDate": "2020-01-01",
+	"documentValue": "101.11",
+	"currencyCode": "PEN"
+}, {
+	"documentId": "9",
+	"documentNumber": "800002018",
+	"notaFiscal": "0000009",
+	"documentDate": "2020-01-03",
+	"documentValue": "20.60",
+	"currencyCode": "BRL"
+}, {
+	"documentId": "10",
+	"documentNumber": "800002019",
+	"notaFiscal": "0000010",
+	"documentDate": "2020-01-10",
+	"documentValue": "0.15",
+	"currencyCode": "USD"
+}]

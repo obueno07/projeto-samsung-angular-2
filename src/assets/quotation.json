@@ -1,0 +1,91 @@
+[{
+	"fromCurrencyCode": "USD",
+	"toCurrencyCode": "PEN",
+	"cotacao": "3.52",
+	"dataHoraCotacao": "2020-01-01"
+}, {
+	"fromCurrencyCode": "USD",
+	"toCurrencyCode": "BRL",
+	"cotacao": "5.17",
+	"dataHoraCotacao": "2020-01-01"
+}, {
+	"fromCurrencyCode": "PEN",
+	"toCurrencyCode": "USD",
+	"cotacao": "0.28",
+	"dataHoraCotacao": "2020-01-01"
+}, {
+	"fromCurrencyCode": "PEN",
+	"toCurrencyCode": "BRL",
+	"cotacao": "1.46",
+	"dataHoraCotacao": "2020-01-01"
+}, {
+	"fromCurrencyCode": "BRL",
+	"toCurrencyCode": "PEN",
+	"cotacao": "0.68",
+	"dataHoraCotacao": "2020-01-01"
+}, {
+	"fromCurrencyCode": "BRL",
+	"toCurrencyCode": "USD",
+	"cotacao": "0.68",
+	"dataHoraCotacao": "2020-01-01"
+}, {
+	"fromCurrencyCode": "USD",
+	"toCurrencyCode": "PEN",
+	"cotacao": "3.49",
+	"dataHoraCotacao": "2020-01-02"
+}, {
+	"fromCurrencyCode": "USD",
+	"toCurrencyCode": "BRL",
+	"cotacao": "5.01",
+	"dataHoraCotacao": "2020-01-02"
+}, {
+	"fromCurrencyCode": "PEN",
+	"toCurrencyCode": "USD",
+	"cotacao": "0.32",
+	"dataHoraCotacao": "2020-01-02"
+}, {
+	"fromCurrencyCode": "PEN",
+	"toCurrencyCode": "BRL",
+	"cotacao": "1.49",
+	"dataHoraCotacao": "2020-01-02"
+}, {
+	"fromCurrencyCode": "BRL",
+	"toCurrencyCode": "PEN",
+	"cotacao": "0.65",
+	"dataHoraCotacao": "2020-01-02"
+}, {
+	"fromCurrencyCode": "BRL",
+	"toCurrencyCode": "USD",
+	"cotacao": "0.61",
+	"dataHoraCotacao": "2020-01-02"
+}, {
+	"fromCurrencyCode": "USD",
+	"toCurrencyCode": "PEN",
+	"cotacao": "3.19",
+	"dataHoraCotacao": "2020-01-03"
+}, {
+	"fromCurrencyCode": "USD",
+	"toCurrencyCode": "BRL",
+	"cotacao": "5.01",
+	"dataHoraCotacao": "2020-01-03"
+}, {
+	"fromCurrencyCode": "PEN",
+	"toCurrencyCode": "USD",
+	"cotacao": "0.31",
+	"dataHoraCotacao": "2020-01-03"
+}, {
+	"fromCurrencyCode": "PEN",
+	"toCurrencyCode": "BRL",
+	"cotacao": "1.19",
+	"dataHoraCotacao": "2020-01-03"
+}, {
+	"fromCurrencyCode": "BRL",
+	"toCurrencyCode": "PEN",
+	"cotacao": "0.73",
+	"dataHoraCotacao": "2020-01-03"
+}, {
+	"fromCurrencyCode": "BRL",
+	"toCurrencyCode": "USD",
+	"cotacao": "0.51",
+	"dataHoraCotacao": "2020-01-03"
+}]

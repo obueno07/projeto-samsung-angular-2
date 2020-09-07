@@ -1,0 +1,24 @@
+<!-- CONTEUDO LOGO -->
+<div>
+    <h4>Sinta prazer em comer aquilo que te faz bem.</h4>
+</div>
+
+<!-- <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover"> -->
+<table datatable class="row-border hover">
+    <thead>
+      <tr>
+        <th>fromCurrencyCode</th>
+        <th>toCurrencyCode</th>
+        <th>cotacao</th>
+        <th>dataHoraCotacao</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let quotation of listQuotation">
+        <td>{{ quotation.fromCurrencyCode }}</td>
+        <td>{{ quotation.toCurrencyCode }}</td>
+        <td>{{ quotation.cotacao }}</td>
+        <td>{{ quotation.dataHoraCotacao }}</td>
+      </tr>
+    </tbody>
+    </table>
