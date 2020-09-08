@@ -1,0 +1,10 @@
+package br.com.samsung.samsungevaluationapi.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class QuotationRepository {
+	
+	
+
+}

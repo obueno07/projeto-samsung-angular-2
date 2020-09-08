@@ -1,0 +1,9 @@
+package br.com.samsung.samsungevaluationapi.service;
+
+public class CurrencyService {
+	
+	public String getCurrency() {
+		return "Hello World";
+	}
+
+}

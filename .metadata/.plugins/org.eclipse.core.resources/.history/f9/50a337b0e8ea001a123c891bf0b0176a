@@ -1,0 +1,72 @@
+package br.com.samsung.samsungevaluationapi.repository;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.springframework.stereotype.Repository;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import br.com.samsung.samsungevaluationapi.vo.CurrencyVO;
+
+@Repository
+public class CurrencyRepository {
+	
+	public String getCurrency() {
+		try {
+
+            URL url = new URL("https://cellolatam.cellologistics.com.br/sds-devs-evaluation/evaluation/currency"); //your url i.e fetch data from .
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            conn.setRequestMethod("GET");
+            conn.setRequestProperty("Accept", "application/json");
+            
+            if (conn.getResponseCode() != 200) {
+                throw new RuntimeException("Failed : HTTP Error code : " + conn.getResponseCode());
+            }
+            
+            InputStreamReader in = new InputStreamReader(conn.getInputStream());
+            BufferedReader br = new BufferedReader(in);
+            StringBuilder sb = new StringBuilder();
+            String output;
+            
+            while ((output = br.readLine()) != null) {
+                System.out.println(output);
+                sb.append(output);
+            }
+            
+            // convert to vo
+            System.out.println("sb = " + sb.toString());
+            this.convertResponseToCurrencyVO(sb);
+            
+            conn.disconnect();
+
+        } catch (Exception e) {
+            System.out.println("Exception in NetClientGet:- " + e);
+        }
+		
+		return "Hello World";
+	}
+	
+	private void convertResponseToCurrencyVO(StringBuilder sb) {
+		//UserIdentifier userIdentifier = gson.fromJson(jsonResponse.getJSONObject("userIdentifier").toString(), UserIdentifier.class);
+		JSONArray jsonArray = new JSONArray(sb.toString());
+		JSONObject json = new JSONObject(sb.toString());
+		
+		Gson gson = new GsonBuilder().create();
+		//String body = /*build request body*/;
+		//String resourceResponse = operations.postForObject(/* url */, body, String.class);
+		//JSONObject jsonResponse = new JSONObject(resourceResponse);
+		CurrencyVO currencyVO = gson.fromJson(json.getString("currencyVO"), CurrencyVO.class);
+		System.out.println("funcionou");
+	}
+	
+	
+	
+	
+
+}

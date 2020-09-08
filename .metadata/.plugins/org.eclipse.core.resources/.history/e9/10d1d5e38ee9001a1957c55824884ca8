@@ -1,0 +1,5 @@
+package br.com.samsung.samsungevaluationapi.repository;
+
+public class CurrencyRepository {
+
+}

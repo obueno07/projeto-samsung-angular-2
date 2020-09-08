@@ -1,0 +1,12 @@
+package br.com.samsung.samsungevaluationapi.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CurrencyService {
+	
+	public String getCurrency() {
+		return "Hello World";
+	}
+
+}

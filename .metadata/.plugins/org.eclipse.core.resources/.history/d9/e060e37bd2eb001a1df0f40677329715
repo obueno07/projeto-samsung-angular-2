@@ -1,0 +1,19 @@
+package br.com.samsung.samsungevaluationapi.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.com.samsung.samsungevaluationapi.repository.QuotationRepository;
+import br.com.samsung.samsungevaluationapi.vo.CurrencyVO;
+
+public class QuotationService {
+	
+	@Autowired
+	QuotationRepository respository;
+	
+	public List<CurrencyVO> getCurrency() {
+		return respository.getCurrency();
+	}
+
+}

@@ -1,0 +1,19 @@
+package br.com.samsung.samsungevaluationapi.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.samsung.samsungevaluationapi.repository.CurrencyRepository;
+
+@Service
+public class CurrencyService {
+	
+	@Autowired
+	CurrencyRepository respository;
+	
+	public String getCurrency() {
+		respository.getCurrency();
+		return "Hello World";
+	}
+
+}
