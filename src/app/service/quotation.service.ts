@@ -45,7 +45,6 @@ export class QuotationService {
     
                 listQuotationMoreRecent.push(quotation);
             }
-            
         });
 
         
